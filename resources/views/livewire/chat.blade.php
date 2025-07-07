@@ -3,9 +3,8 @@
     <div class="w-full bg-white shadow-sm py-4 px-6">
         <div class="max-w-7xl mx-auto text-left text-gray-800 text-lg font-semibold">
             @auth
-                Welcome, {{ $user->name }}
-            @else
-                Welcome, Guest
+                Conversation with {{ $user->name }}
+
             @endauth
         </div>
     </div>
